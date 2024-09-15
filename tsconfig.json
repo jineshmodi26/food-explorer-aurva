@@ -1,0 +1,19 @@
+{
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  "compilerOptions": {
+    "target": "es5",
+    "module": "esnext",
+    "jsx": "react",  // or "react" for older versions of React
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "src" // Ensure your source directory is included
+  ],
+  "exclude": ["node_modules"]
+}
